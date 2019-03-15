@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (1.1.0)
+  - MGJRouter (0.10.0)
+  - ModuleRouter (0.0.3):
+    - MGJRouter
+
+DEPENDENCIES:
+  - Masonry
+  - ModuleRouter
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - MGJRouter
+    - ModuleRouter
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
+  ModuleRouter: 2cb2e2a192509f739caff41f99e9eb6033c25223
+
+PODFILE CHECKSUM: c03d4f1cffa436aa7c7693208c9a5a62f315ebe9
+
+COCOAPODS: 1.5.3
