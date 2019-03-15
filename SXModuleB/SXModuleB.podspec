@@ -134,5 +134,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "ModuleRouter"
-
+  s.dependency "Masonry"
 end
