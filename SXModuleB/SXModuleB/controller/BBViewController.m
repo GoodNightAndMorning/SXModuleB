@@ -48,7 +48,7 @@
     if (!_goToACBtn) {
         _goToACBtn = [UIButton buttonWithType:UIButtonTypeSystem];
         [_goToACBtn setTitle:@"go to AC" forState:UIControlStateNormal];
-        [_goToACBtn addTarget:self action:@selector(goToACBtn) forControlEvents:UIControlEventTouchUpInside];
+        [_goToACBtn addTarget:self action:@selector(goToACAction) forControlEvents:UIControlEventTouchUpInside];
     }
     return _goToACBtn;
 }
@@ -56,7 +56,7 @@
     if (!_goToBCBtn) {
         _goToBCBtn = [UIButton buttonWithType:UIButtonTypeSystem];
         [_goToBCBtn setTitle:@"go to BC" forState:UIControlStateNormal];
-        [_goToBCBtn addTarget:self action:@selector(goToBCBtn) forControlEvents:UIControlEventTouchUpInside];
+        [_goToBCBtn addTarget:self action:@selector(goToBCAction) forControlEvents:UIControlEventTouchUpInside];
     }
     return _goToBCBtn;
 }

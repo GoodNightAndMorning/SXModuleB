@@ -38,7 +38,7 @@
     if (!_goToACBtn) {
         _goToACBtn = [UIButton buttonWithType:UIButtonTypeSystem];
         [_goToACBtn setTitle:@"go to AC" forState:UIControlStateNormal];
-        [_goToACBtn addTarget:self action:@selector(goToACBtn) forControlEvents:UIControlEventTouchUpInside];
+        [_goToACBtn addTarget:self action:@selector(goToACAction) forControlEvents:UIControlEventTouchUpInside];
     }
     return _goToACBtn;
 }
